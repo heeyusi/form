@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Dead By Daylight Form</title>
+      <link rel="stylesheet" href="style_formulario.css">
+  </head>
+  <body>
+    
+    <div class="coluna coluna-esquerda">
+      <p>Conteúdo da coluna da esquerda</p>
+  </div>
+
+  <div class="coluna coluna-meio">
+    <h1>Dead By Daylight Form</h1>
+    <h2>thank you for taking to help us improve the game</h2>
+    <div class="formulario">
+    <p class="perguntas" >Nome</p>
+    <form action="/processar-dados" method="post">
+      <input class="entrada-escrita" type="text" id="nome" name="nome" required>
+    <p class="perguntas" >Nick</p>
+    <form action="/processar-dados" method="post">
+      <input class="entrada-escrita" type="text" id="nome" name="nome" required>
+    <p class="perguntas" >Email</p>
+    <form action="/processar-dados" method="post">
+      <input class="entrada-escrita" type="text" id="nome" name="nome" required>
+    <p class="perguntas" >Plataforma</p>
+    <form action="/processar-dados" method="post">
+        <select class="entrada-escrita" id="opcoes" name="opcoes">
+            <option value="opcao1">PC</option>
+            <option value="opcao2">PS4</option>
+            <option value="opcao3">PS5</option>
+            <option value="opcao4">Xbox One</option>
+            <option value="opcao5">Xbox Series X/S</option>
+            <option value="opcao6">Android</option>
+            <option value="opcao7">iOS</option>
+            <option value="opcao8">Google Stadia</option>
+        </select>
+    </form>
+    <p class="perguntas" >Na sua opinião, qual killer é mais roubado? </p>
+    <form action="/processar-dados" method="post">
+        <select class="entrada-escrita" id="opcoes" name="opcoes">
+            <option value="opcao1">Caçador</option>
+            <option value="opcao2">Espectro</option>
+            <option value="opcao3">Caipira</option>
+            <option value="opcao4">Enfermeira</option>
+            <option value="opcao5">Caçadora</option>
+            <option value="opcao3">Vulto</option>
+            <option value="opcao3">Bruxa</option>
+            <option value="opcao3">Canibal</option>
+            <option value="opcao3">Médico</option>
+            <option value="opcao3">Pesadelo</option>
+            <option value="opcao3">Porca</option>
+            <option value="opcao3">Plhaço</option>
+            <option value="opcao3">Espírito</option>
+            <option value="opcao3">Legião</option>
+            <option value="opcao3">Praga</option>
+            <option value="opcao3">Ghost face</option>
+            <option value="opcao3">Demogorgon</option>
+            <option value="opcao3">Oni</option>
+            <option value="opcao3">Mercenário</option>
+            <option value="opcao3">Carrasco</option>
+            <option value="opcao3">Flagelo</option>
+            <option value="opcao3">Gêmeos</option>
+            <option value="opcao3">Trapaça</option>
+            <option value="opcao3">Nêmesis</option>
+            <option value="opcao3">Cenobita</option>
+            <option value="opcao3">Artista</option>
+            <option value="opcao3">Onryo</option>
+            <option value="opcao3">O cara legal</option>
+        </select>
+    </form>
+    <p class="perguntas" >Qual a dificuldade de jogar com esse killer? </p>
+
+    <form action="/processar-dados" method="post">
+      <div>
+          <input class="botao-circulo" type="radio" id="alternativaA" name="alternativa" value="A">
+          <label for="alternativaA">Muito fácil</label>
+      </div>
+      
+      <div>
+          <input class="botao-circulo" type="radio" id="alternativaB" name="alternativa" value="B">
+          <label for="alternativaB">Fácil</label>
+      </div>
+  
+      <div>
+          <input class="botao-circulo" type="radio" id="alternativaC" name="alternativa" value="C">
+          <label for="alternativaC">Médio</label>
+      </div>
+  
+      <div>
+          <input class="botao-circulo" type="radio" id="alternativaD" name="alternativa" value="D">
+          <label for="alternativaD">Difícil</label>
+      </div>
+  
+      <div>
+          <input  type="radio" id="alternativaE" name="alternativa" value="E">
+          <label for="alternativaE">Muito Difícil</label>
+      </div>
+  
+    
+    <p class="perguntas" >Quais poderes de killer são mais roubados?</p>
+
+    <form action="/processar-dados" method="post">
+        <div>
+            <input class="botao-quadrado" type="checkbox" id="alternativaA" name="alternativas[]" value="A">
+            <label for="alternativaA">dash</label>
+        </div>
+        <div>
+          <input class="botao-quadrado" type="checkbox" id="alternativaA" name="alternativas[]" value="A">
+          <label for="alternativaA">teleport</label>
+        </div>
+
+        <div>
+          <input class="botao-quadrado" type="checkbox" id="alternativaA" name="alternativas[]" value="A">
+          <label for="alternativaA">exposto</label>
+        </div>
+
+        <div>
+          <input class="botao-quadrado" type="checkbox" id="alternativaA" name="alternativas[]" value="A">
+          <label for="alternativaA">tiro a distancia</label>
+        </div>
+
+        <div>
+          <input class="botao-quadrado" type="checkbox" id="alternativaA" name="alternativas[]" value="A">
+          <label for="alternativaA">invisibilidade</label>
+        </div>
+
+        <div>
+          <input class="botao-quadrado" type="checkbox" id="alternativaA" name="alternativas[]" value="A">
+          <label for="alternativaA">sem raio de terror</label>
+        </div>
+
+        <div>
+          <input class="botao-quadrado" type="checkbox" id="alternativaA" name="alternativas[]" value="A">
+          <label for="alternativaA">sangramento</label>
+        </div>
+        <br>
+
+      <p class="perguntas" >Descreva um pouco a gamplay contra o killler</p>
+      <input class="texto-final" type="text" id="nome" name="nome" required>
+    <p></p>
+    <input type="submit" value="Enviar">
+  </div>
+
+    <p>Isso é apenas um formulário de estudos de programação, o jogo Dead By Daylight foi apenas usado como tema do formulário.</p>
+  </div>
+
+  <div class="coluna coluna-direita">
+      <p>Conteúdo da coluna da direita</p>
+  </div>
+
+    
+  </body>
+</html>
